@@ -1,0 +1,12 @@
+.loginForm{
+    border: 1px solid black;
+    width: 50vw;
+    background-color: rgb(231, 187, 172);
+}
+form{
+    width: 85%;
+}
+
+h4{
+    text-align: center;
+}
