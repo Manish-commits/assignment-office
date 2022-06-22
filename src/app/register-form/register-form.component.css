@@ -1,10 +1,10 @@
-.loginform{
-    width: 500px;
+.registerform{
+    width: 650px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid black;
     margin-top: 30px;
-    background-color: rgb(231, 187, 172);
+    background-color: rgba(90, 198, 206, 0.815);
     border-radius: 2%;
 }
 form{

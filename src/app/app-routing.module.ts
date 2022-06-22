@@ -1,8 +1,8 @@
 import { Component, NgModule } from '@angular/core';
 import { Routes, RouterModule} from '@angular/router';
-import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterFormComponent } from './register-form/register-form.component';
 
 const routes: Routes = [
     {
@@ -19,9 +19,9 @@ const routes: Routes = [
         component: LoginComponent
     },
     {
-        path: 'employee-list',
-        component: EmployeeListComponent
-    }
+        path: 'register',
+        component: RegisterFormComponent
+    },
 ];
 
 

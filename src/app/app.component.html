@@ -1,1 +1,66 @@
+<div class="container">
+    <div class="row">
+        <header>
+            <h2 style="text-align:center ;">Angular Assignments</h2>
+        </header>
+    </div>
+</div>
+<div >
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Content</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Module-1
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Variables</a></li>
+                  <li><a class="dropdown-item" href="#">Functions</a></li>
+                  <li><a class="dropdown-item" href="#">Data Types</a></li>
+                  <li><a class="dropdown-item" href="#">Logical Operators</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Module-2
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Objects</a></li>
+                  <li><a class="dropdown-item" href="#">Array</a></li>
+                  <li><a class="dropdown-item" href="#">Methods of Array and Object</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Module-3
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Dependency Injection</a></li>
+                  <li><a class="dropdown-item" href="#">Life Cycle</a></li>
+                  <li><a class="dropdown-item" href="#">Directives</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-success" type="submit" [routerLink]=" '/login' ">Login/Register</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</div>
+
+<app-list1></app-list1>
+
 <router-outlet></router-outlet>
+
+    <!-- <footer class="footer">
+        This sections is under process
+    </footer> -->
